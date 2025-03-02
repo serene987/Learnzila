@@ -5,9 +5,9 @@ import  { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { SidebarData } from './SidebarData.jsx';
 import { IconContext } from 'react-icons';
-import './Navbar.css';
+import './Sidenavbar.css';
 
-function Navbar() {
+function SideNavbar() {
   const [sidebar, setSidebar] = useState(false);
 
   const showSidebar = () => setSidebar(!sidebar);
@@ -44,4 +44,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default SideNavbar;

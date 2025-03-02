@@ -1,13 +1,14 @@
 import './App.css';
-import Navbar from './components/sidenav/Navbar.jsx';
+import SideNavbar from './components/sidenav/SideNavbar.jsx';
 import { BrowserRouter as Route, Routes } from 'react-router-dom';
-
+import Topnav from './components/topnav/Topnav.jsx'
 
 function App() {
   return (
     <>
       <Route>
-        <Navbar />
+        <Topnav/>
+        <SideNavbar />
           <Routes path='/' />
       </Route>
     </>
